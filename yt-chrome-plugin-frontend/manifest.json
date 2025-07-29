@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Sentimentos",
+  "version": "1.0",
+  "description": "Analise de sentimentos dos comentarios de videos do YouTube",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "http://172.23.36.235:5000/*",
+    "https://www.googleapis.com/*"
+  ]
+}
